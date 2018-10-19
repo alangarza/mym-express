@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="css/sp-flickr-gallery.css" type="text/css" />
     <link rel="stylesheet" href="css/odometer-theme-minimal.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
     <!--Jquery-->
     <script src="js/jQuery.js" type="text/javascript"></script>
 </head>
@@ -45,13 +48,31 @@
                 <div class="row">
                     <div class="col-sm-12 top-base no-padding hidden-xs">
                         <div class="col-sm-6 top-block">
-                            <p><i class="fa fa-map-marker"><i class="hidden">Dirección</i></i>Ciudad Mitras, Nuevo León, México</p>
+                            <p><i class="fa fa-map-marker"><i class="hidden"></i></i> Ciudad Mitras, Nuevo León, México</p>
                         </div>
                         <div class="col-sm-6 top-block text-right">
                             <ul class="social-icons">
-                                <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a></li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sp-top-info" class="hidden-lg hidden-sm hidden-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 top-base no-padding">
+                      
+                        <div class="col-sm-12 top-block text-center">
+                            <a href="https://whatsapp.com">
+                            <img src="images/whatsapp.png" width="120px;">
+                            </a>
+                            <!-- <ul class="social-icons">
+                                <li><a class=" " target="_blank" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -67,13 +88,13 @@
                     <div id="sp-top2" class="col-sm-9 col-md-9 hidden-xs">
                         <ul class="sp-contact-info">
                             <li class="sp-contact-time"><i class="ti-timer"></i>
-                                <p class="contact-content"> <span class="contact-title">Horarios:</span> <span class="time">Lun-Sab: 9.00-18.00</span></p>
+                                <p class="contact-content"> <span class="contact-title">Horarios:</span> <span class="time">Lun-Sab: 8.30-18.00</span></p>
                             </li>
                             <li class="sp-contact-phone"><i class="icon-call-in"></i>
-                                <p class="contact-content"> <span class="contact-title">Teléfono:</span> <span>81 2351 3718</span></p>
+                                <p class="contact-content"> <span class="contact-title">Teléfono:</span> <span>81 8063 2383</span></p>
                             </li>
                             <li class="sp-contact-email"><i class="icon-envelope-letter"></i>
-                                <p class="contact-content"> <span class="contact-title">Correo:</span> <span>ventas@mymexpress.com</span></p>
+                                <p class="contact-content"> <span class="contact-title">Correo:</span> <span>proyectos@mymexpress.com</span></p>
                             </li>
                         </ul>
                     </div>
@@ -90,7 +111,7 @@
                             <a class="hidden-lg hidden-md" id="offcanvas-toggler" href="#"><i class="fa fa-bars"></i></a>
 
                                 <ul class="sp-megamenu-parent menu-fade-up hidden-xs">
-                                        <li class="sp-menu-item"><a href="index.php">INICIO</a></li>
+                                        <li class="sp-menu-item"><a href="cotizar.php">COTIZAR</a></li>
                                         <li class="sp-menu-item"><a href="about.php">NOSOTROS</a></li>
                                         <li class="sp-menu-item"><a href="services.php">SERVICIOS</a></li>
                                         <li class="sp-menu-item"><a href="contact.php">CONTACTO</a></li>

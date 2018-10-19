@@ -9,10 +9,10 @@
                         <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/heb.png" alt="Client 2"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/soriana.png" alt="Client 3"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/heineken.png" alt="Client 3"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/walmart.png" alt="Client 4"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/chr.png" alt="Client 4"></a>
                     </div>
                     <div class="col-sm-2">
                         <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/coca.png" alt="Client 5"></a>
@@ -32,10 +32,10 @@
                         </div>
                     </div>
                     <div class="row">  <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/soriana.png" alt="Client 1"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/heineken.png" alt="Client 1"></a>
                         </div>
                         <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/walmart.png" alt="Client 2"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/chr.png" alt="Client 2"></a>
                         </div>
                     </div>
                     <div class="row">  <div class="col-xs-6">

@@ -2020,7 +2020,7 @@ Contact us
 }
 
 #contact {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 .address {
     clear: both;
@@ -2584,4 +2584,14 @@ Responsive
 
 .action-block{
     text-align: center
+}
+
+.quote-header{
+    font-weight: 600;
+    color: #01274b;
+    margin-bottom: 5px;
+}
+
+.divider-header-quote{
+    margin: 2px;
 }
