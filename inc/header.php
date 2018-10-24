@@ -111,13 +111,12 @@
                             <a class="hidden-lg hidden-md" id="offcanvas-toggler" href="#"><i class="fa fa-bars"></i></a>
 
                                 <ul class="sp-megamenu-parent menu-fade-up hidden-xs">
+                                        <li class="sp-menu-item"><a href="index.php">MyM Express</a></li>
                                         <li class="sp-menu-item"><a href="cotizar.php">COTIZAR</a></li>
                                         <li class="sp-menu-item"><a href="about.php">NOSOTROS</a></li>
-                                        <li class="sp-menu-item"><a href="services.php">SERVICIOS</a></li>
-                                        <li class="sp-menu-item"><a href="contact.php">CONTACTO</a></li>
+                                        <li class="sp-menu-item"><a href="unidades.php">UNIDADES</a></li>
+                                        <li class="sp-menu-item"><a href="contacto.php">CONTACTO</a></li>
                                         <li class="sp-menu-item"><a href="bolsa.php">BOLSA DE TRABAJO</a></li>
-    
-
                                 </ul>
                             </div>
                         </div>

@@ -1,0 +1,12 @@
+Octubre 24, 2018.
+/////////////////
+    Agregar link a CTA de index.php 
+    Eliminar google maps en bolsa.php
+    Nuevo fomulario en bolsa.php
+    Correcion de info en bolsa.php
+    Added links to quote cta's site wide
+    Changed breadcrumbs sitewide
+    changed page from services.php to unidades.php
+    changed form in contact.php
+    hide breadcrumbs in xs
+    

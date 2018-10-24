@@ -88,19 +88,21 @@
                     <div id="sp-bottom1" class="col-sm-6 col-md-3">
                         <h3 class="sp-module-title">Contacto</h3>
                         <ul class="textwidget">
-                            <li><i class="fa fa-map-marker"><i class="hidden">address</i></i> Dirección: Libramiento Noreste, Arco Vial Parte Industrial Ciudad Mitras. Nuevo León, México</li>
-                            <li><i class="fa fa-phone"></i> (+52) 1 812 351 3718</li>
-                            <li><i class="fa fa-envelope"></i> ventas@mymexpress.com</li>
-                            <li><i class="fa fa-fax"></i> 81 2351 3718</li>
-                            <li><i class="fa fa-clock-o"></i> Lun - Sab: 9:00 - 18:00</li>
+                            <li><i class="fa fa-map-marker"><i class="hidden">Direcci&oacute;n</i></i> Dirección: Libramiento Noreste, Arco Vial Parte Industrial Ciudad Mitras. Nuevo León, México</li>
+                            <li><i class="fa fa-phone"></i> (+52) 81 8063 2383</li>
+                            <li><i class="fa fa-envelope"></i> proyectos@mymexpress.com</li>
+                            <li><i class="fa fa-clock-o"></i> Lun - Sab: 8:30 - 18:00</li>
                         </ul>
                     </div>
                     <div id="sp-bottom2" class="col-sm-6 col-md-3">
                         <h3 class="sp-module-title">Ligas</h3>
                         <ul class="textwidget">
-                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Acerca de</a></li>
-                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Servicios</a></li>
+                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> MyM Express</a></li>
+                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Cotizar</a></li>
+                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Nosotros</a></li>
+                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Unidades</a></li>
                             <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Contacto</a></li>
+                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Bolsa de Trabajo</a></li>
                           
                         </ul>
                     </div>
@@ -126,12 +128,12 @@
                     <h3 class="sp-module-title">Menu</h3>
                     <div class="sp-module-content">
                         <ul class="nav menu">
-                        <li class="sp-menu-item"><a href="index.php">INICIO</a></li>
-                                        <li class="sp-menu-item"><a href="about.php">NOSOTROS</a></li>
-                                        <li class="sp-menu-item"><a href="services.php">SERVICIOS</a></li>
-                                        <li class="sp-menu-item"><a href="contact.php">CONTACTO</a></li>
-                                        <li class="sp-menu-item"><a href="bolsa.php">BOLSA DE TRABAJO</a></li>
-    
+                        <li class="sp-menu-item"><a href="index.php">MyM Express</a></li>
+                        <li class="sp-menu-item"><a href="cotizar.php">COTIZAR</a></li>
+                        <li class="sp-menu-item"><a href="about.php">NOSOTROS</a></li>
+                        <li class="sp-menu-item"><a href="unidades.php">UNIDADES</a></li>
+                        <li class="sp-menu-item"><a href="contacto.php">CONTACTO</a></li>
+                        <li class="sp-menu-item"><a href="bolsa.php">BOLSA DE TRABAJO</a></li>
                         </ul>
                     </div>
                 </div>

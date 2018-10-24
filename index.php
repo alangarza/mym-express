@@ -20,7 +20,7 @@
                                     </div>
 
                                     <div class="tp-caption medium_text sfb tp-resizeme start hidden-xs" data-x="880" data-y="180" data-speed="300" data-start="500" data-easing="Sine.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; white-space: nowrap; transition: none 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 80px; left: 440.5px; top: 380px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 50, 0, 1);">
-                                    <a href="#" class="sppb-btn sppb-btn-default sppb-btn-" style="transition: none 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 30px; border-width: 2px; margin: 10px 0px 0px; padding: 8px 35px; letter-spacing: 0px; font-size: 30px;">COTIZAR SERVICIO</a>
+                                    <a href="cotizar.php" class="sppb-btn sppb-btn-default sppb-btn-" style="transition: none 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 30px; border-width: 2px; margin: 10px 0px 0px; padding: 8px 35px; letter-spacing: 0px; font-size: 30px;">COTIZAR SERVICIO</a>
                                     </div>
                                 
                                 </li>
@@ -42,7 +42,7 @@
                         <h2 class="title">¿Buscas una Cotización Personalizada? </h2>
                     </div>
                     <div class="col-sm-3 action-block text-right">
-                        <a target="_parent" href="#" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
+                        <a target="_parent" href="cotizar.php" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
                     </div>
                 </div>
             </div>

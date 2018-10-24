@@ -5,12 +5,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 breadcrumb-block">
-                        <h2>contacto</h2>
+                        <h2>Contacto</h2>
                     </div>
-                    <div class="col-sm-6 breadcrumb-block text-right">
+                    <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
                         <ol class="breadcrumb">
-                            <li><span></span><a href="index.php">Inicio</a></li>
-                            <li class="active">contacto</li>
+                            <li><span></span><a href="index.php">MyM Express</a></li>
+                            <li class="active">Contacto directo</li>
                         </ol>
                     </div>
                 </div>
@@ -20,51 +20,54 @@
         <section id="contact" class="space">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 contact-block">
+                <div class="col-sm-4 contact-block">
                         <div class="col-sm-12 main-heading">
-                            <h3>MyM Express</h3>
+                            <h3>Trabaja con nosotros en MyM Express</h3>
                         </div>
                         <ul class="address">
                             <li><i class="fa fa-map-marker"></i>Libramiento Noreste, Arco Vial Parte Industrial Ciudad Mitras. Nuevo León, México</li>
-                            <li><a href="tel:+0883462543"><i class="fa fa-phone"></i>(+52) 1 812 351 3718</a> </li>
-                            <li><a href="mailto:ventas@mymexpress.com "><i class="fa fa-envelope"></i>ventas@mymexpress.com </a> </li>
-                            <li><i class="fa fa-clock-o"></i>Lun - Sab: 7:00 - 17:00</li>
+                            <li><a href="tel:+0883462543"><i class="fa fa-phone"></i>(+52) 81 8063 2383</a> </li>
+                            <li><a href="mailto:ventas@mymexpress.com "><i class="fa fa-envelope"></i>proyectos@mymexpress.com </a> </li>
+                            <li><i class="fa fa-clock-o"></i>Lun - Sab: 8:30 - 18:00</li>
                         </ul>
                         <ul class="sppb-person-social">
-                            <li><a target="_parent" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_parent" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_parent" href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a target="_parent" href="#"><i class="fab fa-twitter"></i></a></li>
                        
                         </ul>
                     </div>
                     <div class="col-sm-8 contact-block">
                         <div class="col-sm-12 main-heading">
-                            <h3>Cotización Personalizada</h3>
+                            <h3>Contacto Directo</h3>
                         </div>
                         <form id="contact-form">
                             <div class="form-group col-sm-6 padding-right">
+                            <label><i class="fas fa-user"></i> Nombre</label>
                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-user"></i> Correo Electr&oacute;nico</label>
+
                                 <input type="email" class="form-control" name="mail" id="mail" required placeholder="Email">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-user"></i> Tel&eacute;fono</label>
+
                                 <input type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-building"></i> Empresa</label>
+
                                 <input type="text" class="form-control" name="empresa" id="empresa" required placeholder="Empresa">
                             </div>
+                          
                             <div class="form-group col-sm-12 no-padding">
-                                <input type="text" class="form-control" name="origen" id="origen" placeholder="Origen (municipio, estado)">
-                            </div>
-                            <div class="form-group col-sm-12 no-padding">
-                                <input type="text" class="form-control" name="destino" id="destino" placeholder="Destino (municipio, estado)">
-                            </div>
-                            <div class="form-group col-sm-12 no-padding">
-                                <textarea class="form-control" name="comment" id="comment" placeholder="Descripción del servicio requerido:
-"></textarea>
+                            <label><i class="fas fa-building"></i> Mensaje</label>
+
+                                <textarea class="form-control" name="comment" id="comment" placeholder=""></textarea>
                             </div>
                             <div class="col-sm-12 button no-padding">
-                                <input type="submit" id="submit_contact" class="sppb-btn sppb-btn-default" value="Recibir Cotizacion">
+                                <input type="submit" id="submit_contact" class="sppb-btn sppb-btn-default" value="Enviar">
                                 <div id="msg" class="message"></div>
                             </div>
                         </form>

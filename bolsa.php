@@ -5,12 +5,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 breadcrumb-block">
-                        <h2>bolsa de trabajo</h2>
+                        <h2>Bolsa de Trabajo</h2>
                     </div>
-                    <div class="col-sm-6 breadcrumb-block text-right">
+                    <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
                         <ol class="breadcrumb">
-                            <li><span></span><a href="index.php">Inicio</a></li>
-                            <li class="active">bolsa de trabajo</li>
+                            <li><span></span><a href="index.php">MyM Express</a></li>
+                            <li class="active">Bolsa de Trabajo</li>
                         </ol>
                     </div>
                 </div>
@@ -26,13 +26,13 @@
                         </div>
                         <ul class="address">
                             <li><i class="fa fa-map-marker"></i>Libramiento Noreste, Arco Vial Parte Industrial Ciudad Mitras. Nuevo León, México</li>
-                            <li><a href="tel:+0883462543"><i class="fa fa-phone"></i>(+52) 1 812 351 3718</a> </li>
-                            <li><a href="mailto:ventas@mymexpress.com "><i class="fa fa-envelope"></i>ventas@mymexpress.com </a> </li>
-                            <li><i class="fa fa-clock-o"></i>Lun - Sab: 7:00 - 17:00</li>
+                            <li><a href="tel:+0883462543"><i class="fa fa-phone"></i>(+52) 81 8063 2383</a> </li>
+                            <li><a href="mailto:ventas@mymexpress.com "><i class="fa fa-envelope"></i>proyectos@mymexpress.com </a> </li>
+                            <li><i class="fa fa-clock-o"></i>Lun - Sab: 8:30 - 18:00</li>
                         </ul>
                         <ul class="sppb-person-social">
-                            <li><a target="_parent" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_parent" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_parent" href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a target="_parent" href="#"><i class="fab fa-twitter"></i></a></li>
                        
                         </ul>
                     </div>
@@ -42,17 +42,67 @@
                         </div>
                         <form id="contact-form">
                             <div class="form-group col-sm-6 padding-right">
+                            <label><i class="fas fa-user"></i> Nombre Completo</label>
+
                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Nombre">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
-                                <input type="email" class="form-control" name="mail" id="mail" required placeholder="Email">
+                            <label><i class="fas fa-envelope"></i> Correo Electrónico</label>
+
+                                <input type="email" class="form-control" name="mail" id="mail" required placeholder="Correo">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-phone"></i> Tel&eacute;fono</label>
+
                                 <input type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
                             </div>
-                          
+                            <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-map-marker-alt"></i> ¿Vives en Nuevo L&eacute;on?</label>
+
+                                <select type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
+                                <option selected disabled>Selecciona una opci&oacute;n</option>
+                                    <option>Si </option>
+                                    <option>No </option>
+
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-calendar-alt"></i> Años de experiencia</label>
+                                <select type="text" class="form-control">
+                                    <option selected disabled>Selecciona una opci&oacute;n</option>
+                                    <option>0</option>
+                                    <option>1-2</option>
+                                    <option>3-5</option>
+                                    <option>6-9</option>
+                                    <option>10 o m&aacute;s</option>
+                                   
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-address-card"></i> Tipo de Licencia</label>
+                                <select type="text" class="form-control">
+                                    <option selected disabled>Selecciona una opci&oacute;n</option>
+                                    <option>Tipo A </option>
+                                    <option>Tipo B </option>
+                                    <option>Tipo C </option>
+                                    <option>Tipo D </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-12 no-padding">
+                                <label><i class="fas fa-briefcase"></i> Experiencia Laboral</label>   
+                                <textarea class="form-control" name="comment" id="comment" placeholder="Trabajos anteriores y referencias"></textarea>
+                            </div>
+                            <div class="form-group col-sm-6 padding-left">
+                            <label><i class="fas fa-business-time"></i> Disponibilidad</label>
+                                <select type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
+                                <option selected disabled>Selecciona una opci&oacute;n</option>
+                                    <option>For&aacute;neo </option>
+                                    <option>Local </option>
+                                    <option>Ambas </option>
+                                </select>
+                            </div>
                             <div class="col-sm-12 button no-padding">
-                                <input type="submit" id="submit_contact" class="sppb-btn sppb-btn-default" value="Enviar Informacion">
+                                <input type="submit" id="submit_contact" class="sppb-btn sppb-btn-default" value="Enviar Solicitud">
                                 <div id="msg" class="message"></div>
                             </div>
                         </form>
@@ -61,7 +111,7 @@
             </div>
         </section>
         <!--Map-->
-        <section id="map">
+        <!-- <section id="map">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 no-padding">
@@ -69,5 +119,5 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <?php include('inc/footer.php') ?>

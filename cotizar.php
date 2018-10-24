@@ -9,8 +9,8 @@
                     </div>
                     <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
                         <ol class="breadcrumb">
-                            <li><span></span><a href="index.php">Inicio</a></li>
-                            <li class="active">cotizar</li>
+                            <li><span></span><a href="index.php">MyM Express</a></li>
+                            <li class="active">Cotizar</li>
                         </ol>
                     </div>
                 </div>
