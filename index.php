@@ -60,7 +60,7 @@
             </div>
         </section>
         <!--Services-->
-        <section id="services" class="space bg">
+        <!-- <section id="services" class="space bg">
             <div class="container">
             
                 <div class="row">
@@ -75,7 +75,7 @@
                                 <a href="#" target="_parent">
                                     <h3 class="title">Carga en Caja Seca</h3>
                                 </a>
-                                <!-- <p>La seguridad es muy importante para nosotros, siempre estamos es por eso que llevamos a cabo procesos que garanticen en la mayor medida posible el bienestar de nuestros operadores, unidades y tu mercancía.</p> -->
+                              
                                 <a target="_parent" href="contact.php" class="simple">Cotizar<i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
@@ -90,7 +90,6 @@
                                 <a href="#" target="_parent">
                                     <h3 class="title">Transporte de Carga</h3>
                                 </a>
-                                <!-- <p>Siempre estamos disponibles para solucionar tus problemas logísticos.</p> -->
                                 <a target="_parent" href="contact.php" class="simple">Cotizar<i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
@@ -105,7 +104,7 @@
                                 <a href="#" target="_parent">
                                     <h3 class="title">Transporte de Carga</h3>
                                 </a>
-                                <!-- <p>Nuestras unidades son marca Kenworth modelo T680, uno de los modelos de tractocamiones a nivel global.</p> -->
+                              
                                 <a target="_parent" href="contact.php" class="simple">Cotizar<i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
@@ -113,7 +112,7 @@
                  
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--offer-->
         <section id="offer" class="space">
             <div class="container">

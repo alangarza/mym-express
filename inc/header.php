@@ -5,17 +5,22 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
 <!--<![endif]-->
-
 <head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WM9QHCW');</script>
+<!-- End Google Tag Manager -->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <!-- Basic Page Needs
-  ================================================== -->
+ 
     <title>M&M Express - Transportes Carga Terrestre</title>
-    <meta name="keywords" content="Alpha Media Agency SA de CV">
-    <meta name="description" content="Alpha Media Agency SA de CV">
+    <meta name="keywords" content="Alpha Media Agency ">
+    <meta name="description" content="Alpha Media Agency ">
     <meta name="author" content="">
-    <!-- Mobile Specific Meta
-    ================================================== -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--All Css-->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
@@ -35,12 +40,30 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#ff0000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
 
     <!--Jquery-->
-    <script src="js/jQuery.js" type="text/javascript"></script>
+    <script src="js/jquery-2.2.1.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="js/parsley.js"></script>
+    
+
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM9QHCW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
     <div class="body-innerwrapper">
         <!--Top Contact info-->
         <section id="sp-top-info hidden-xs">
@@ -124,3 +147,7 @@
                 </div>
             </div>
         </header>
+
+
+
+            

@@ -141,6 +141,8 @@
         </div>
        
     <!--All Script-->
+
+   
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/appear.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJRK9hVXaOXnstUl3zZFa8Tl2rJ76-Z0I"></script>
@@ -152,6 +154,7 @@
     <script src="js/sp-flickr-gallery.js" type="text/javascript"></script>
     <script src="js/odometer.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+
 </body>
 
 </html>

@@ -9,4 +9,10 @@ Octubre 24, 2018.
     changed page from services.php to unidades.php
     changed form in contact.php
     hide breadcrumbs in xs
-    
+    /////////////////////////// v2.2
+    added favicon
+
+
+    https://codingcyber.org/simple-php-contact-form-send-email-storing-mysql-database-5591/
+
+    https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server

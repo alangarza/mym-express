@@ -4,15 +4,7 @@
         <section id="breadcrumb" class="space">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 breadcrumb-block">
-                        <h2>Unidades</h2>
-                    </div>
-                    <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
-                        <ol class="breadcrumb">
-                            <li><span></span><a href="index.php">MyM Express</a></li>
-                            <li class="active">Unidades</li>
-                        </ol>
-                    </div>
+                   
                 </div>
             </div>
         </section>

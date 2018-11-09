@@ -40,34 +40,34 @@
                         <div class="col-sm-12 main-heading">
                             <h3>Contacto Directo</h3>
                         </div>
-                        <form id="contact-form">
+                        <form name="submit-to-google-sheet" method="post">
                             <div class="form-group col-sm-6 padding-right">
                             <label><i class="fas fa-user"></i> Nombre</label>
-                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+                                <input type="text" class="form-control" name="nombre" required placeholder="Name">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-user"></i> Correo Electr&oacute;nico</label>
 
-                                <input type="email" class="form-control" name="mail" id="mail" required placeholder="Email">
+                                <input type="email" class="form-control" name="correo"  required placeholder="Email">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-user"></i> Tel&eacute;fono</label>
 
-                                <input type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
+                                <input type="text" class="form-control" name="telefono"  required placeholder="Telefono">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-building"></i> Empresa</label>
 
-                                <input type="text" class="form-control" name="empresa" id="empresa" required placeholder="Empresa">
+                                <input type="text" class="form-control" name="empresa"  required placeholder="Empresa">
                             </div>
                           
                             <div class="form-group col-sm-12 no-padding">
                             <label><i class="fas fa-building"></i> Mensaje</label>
 
-                                <textarea class="form-control" name="comment" id="comment" placeholder=""></textarea>
+                                <textarea class="form-control" name="mensaje" placeholder=""></textarea>
                             </div>
                             <div class="col-sm-12 button no-padding">
-                                <input type="submit" id="submit_contact" class="sppb-btn sppb-btn-default" value="Enviar">
+                                <input type="submit"  class="sppb-btn sppb-btn-default" value="Enviar">
                                 <div id="msg" class="message"></div>
                             </div>
                         </form>
@@ -86,3 +86,20 @@
             </div>
         </section>
         <?php include('inc/footer.php') ?>
+
+      
+      <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxXYvfenO6svB8PpYr9kG7yXX3XRBpDUaXq5lZ6W_Nw--lk6XM/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(setTimeout(function(){ window.location.href = "gracias.php"}, 500))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+     
+
+
+</script>

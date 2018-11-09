@@ -40,16 +40,16 @@
                         <div class="col-sm-12 main-heading">
                             <h3>Trabaja con Nosotros</h3>
                         </div>
-                        <form id="contact-form">
+                        <form method="POST" name="submit-to-google-sheet">
                             <div class="form-group col-sm-6 padding-right">
                             <label><i class="fas fa-user"></i> Nombre Completo</label>
 
-                                <input type="text" class="form-control" name="name" id="name" required placeholder="Nombre">
+                                <input type="text" class="form-control" name="nombre" id="name" required placeholder="Nombre">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-envelope"></i> Correo Electrónico</label>
 
-                                <input type="email" class="form-control" name="mail" id="mail" required placeholder="Correo">
+                                <input type="email" class="form-control" name="correo" id="mail" required placeholder="Correo">
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-phone"></i> Tel&eacute;fono</label>
@@ -59,7 +59,7 @@
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-map-marker-alt"></i> ¿Vives en Nuevo L&eacute;on?</label>
 
-                                <select type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
+                                <select type="text" class="form-control" name="vivesnl" required>
                                 <option selected disabled>Selecciona una opci&oacute;n</option>
                                     <option>Si </option>
                                     <option>No </option>
@@ -68,7 +68,7 @@
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-calendar-alt"></i> Años de experiencia</label>
-                                <select type="text" class="form-control">
+                                <select type="text" class="form-control" name="experiencia-anos" required>
                                     <option selected disabled>Selecciona una opci&oacute;n</option>
                                     <option>0</option>
                                     <option>1-2</option>
@@ -80,7 +80,7 @@
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-address-card"></i> Tipo de Licencia</label>
-                                <select type="text" class="form-control">
+                                <select type="text" class="form-control" name="licencia">
                                     <option selected disabled>Selecciona una opci&oacute;n</option>
                                     <option>Tipo A </option>
                                     <option>Tipo B </option>
@@ -90,11 +90,11 @@
                             </div>
                             <div class="form-group col-sm-12 no-padding">
                                 <label><i class="fas fa-briefcase"></i> Experiencia Laboral</label>   
-                                <textarea class="form-control" name="comment" id="comment" placeholder="Trabajos anteriores y referencias"></textarea>
+                                <textarea class="form-control" name="experiencia" id="comment" placeholder="Trabajos anteriores y referencias"></textarea>
                             </div>
                             <div class="form-group col-sm-6 padding-left">
                             <label><i class="fas fa-business-time"></i> Disponibilidad</label>
-                                <select type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono">
+                                <select type="text" class="form-control" name="disponibilidad" required>
                                 <option selected disabled>Selecciona una opci&oacute;n</option>
                                     <option>For&aacute;neo </option>
                                     <option>Local </option>
@@ -102,14 +102,29 @@
                                 </select>
                             </div>
                             <div class="col-sm-12 button no-padding">
-                                <input type="submit" id="submit_contact" class="sppb-btn sppb-btn-default" value="Enviar Solicitud">
-                                <div id="msg" class="message"></div>
+                                <input type="submit" class="sppb-btn sppb-btn-default" value="Enviar Solicitud">
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
+        
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyNHPW1_CSPKV3f61h_luJoTinvGeyMQhRkQtPnPpwL0q8liaQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(setTimeout(function(){ window.location.href = "gracias.php"}, 500))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+     
+
+
+</script>
         <!--Map-->
         <!-- <section id="map">
             <div class="container-fluid">
@@ -121,3 +136,4 @@
             </div>
         </section> -->
         <?php include('inc/footer.php') ?>
+
