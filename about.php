@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
                         <ol class="breadcrumb">
-                            <li><span></span><a href="index.php">MyM Express</a></li>
+                            <li><span></span><a href="index">MyM Express</a></li>
                             <li class="active">acerca de</li>
                         </ol>
                     </div>
@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 history-block">
-                        <img src="images/m/m2.png" alt="History">
+                        <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m2.png" alt="History">
                     </div>
                     <div class="col-sm-6 history-block">
                         <h2>40 años de experiencia</h2>
@@ -65,7 +65,7 @@
                         <h2 class="title">¿Buscas una Cotización Personalizada? </h2>
                     </div>
                     <div class="col-sm-3 action-block text-right">
-                        <a target="_parent" href="cotizar.php" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
+                        <a target="_parent" href="cotizar" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
                     </div>
                 </div>
             </div>

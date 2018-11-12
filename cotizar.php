@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
                         <ol class="breadcrumb">
-                            <li><span></span><a href="index.php">MyM Express</a></li>
+                            <li><span></span><a href="index">MyM Express</a></li>
                             <li class="active">Cotizar</li>
                         </ol>
                     </div>
@@ -23,7 +23,7 @@
                   
                     <div class="col-sm-8 contact-block">
                        
-                        <form id="form-mym">
+                        <form id="form-mym" name="submit-to-google-sheet">
                         <div class="row">
 
                             <div class="col-sm-12 main-heading">
@@ -62,11 +62,16 @@
                             </div>
                             <div class="form-group col-sm-12 padding-right">
                                 <label><i class="fas fa-box"></i> Producto</label>
-                                    <input type="text" class="form-control" name="name" id="name"  placeholder="Descripcion del producto">
+                                    <input type="text" class="form-control" name="producto" id="name"  placeholder="Descripcion del producto">
+                            </div>
+                            <div class="col-sm-12 main-heading">
+                                <br>
+                                <h4 class="quote-header">Origen de Ruta </h4>
+                                <hr class="divider-header-quote">
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
                                     <label><i class="fas fa-map-marker-alt"></i> Origen (Estado) </label>                                    
-                                    <select class="form-control" type="text" name="name" id="name" >
+                                    <select class="form-control" type="text" name="origen-e" id="name" >
                                     <option value="volvo" selected disabled>Estado</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
@@ -77,17 +82,24 @@
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
                                     <label><i class="fas fa-map-marker-alt"></i> Origen (Municipio) </label>                                    
-                                    <select class="form-control" type="text" name="name" id="name" >
+                                    <select class="form-control" type="text" name="origen-m" id="name" >
                                     <option value="volvo" selected disabled>Municipio</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
                                             <option value="mercedes">Mercedes</option>
                                             <option value="audi">Audi</option>
                                     </select>
+                                    
                             </div>
+                            <div class="col-sm-12 main-heading">
+                                <br>
+                                <h4 class="quote-header">Destino de Ruta </h4>
+                                <hr class="divider-header-quote">
+                            </div>
+
                             <div class="form-group col-sm-6 padding-right select-form-control">
                                     <label><i class="fas fa-map-marker-alt"></i> Destino (Estado) </label>                                    
-                                    <select class="form-control" type="text" name="name" id="name" >
+                                    <select class="form-control" type="text" name="destino-e" id="name" >
                                     <option value="volvo" selected disabled>Estado</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
@@ -98,7 +110,7 @@
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
                                     <label><i class="fas fa-map-marker-alt"></i> Destino (Municipio) </label>                                    
-                                    <select class="form-control" type="text" name="name" id="name" >
+                                    <select class="form-control" type="text" name="destino-m" id="name" >
                                     <option value="volvo" selected disabled>Municipio</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
@@ -110,7 +122,7 @@
                             <div class="form-group col-sm-12 no-padding">
                             <label><i class="fas fa-pencil-alt"></i> Comentarios</label>
 
-                                <textarea class="form-control" name="comment" id="comment" placeholder=""></textarea>
+                                <textarea class="form-control" name="comentarios" id="comment" placeholder=""></textarea>
                             </div>
                         
                            
@@ -128,7 +140,7 @@
 
                     <div class="col-sm-4">
 
-                        <img src="images/m/m4.png"> 
+                        <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m4.png"> 
                         
                         <h2 class="quote-header"> Profesionales en el servicio de transporte de carga de mercancías en caja seca 53"</h2>
 
@@ -147,32 +159,26 @@
             </div>
         </section>
 
-        
+         
+      <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyAzzLvjeiLwjCB3dcqaZGa9cKwYMrGF-VpvegDT4XvJhMqff2s/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(setTimeout(function(){ window.location.href = "gracias.php"}, 500))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+     
+
+
+</script>
+
  
         <?php include('inc/footer.php') ?>
 
-
-<script>
-        var $form = $('form#form-mym'),
-            url = 'https://script.google.com/macros/s/AKfycbwVw0rJoVtMcjEcYY-1wz32P7I7frytavAK50mh9GV_n5wnbIjq/exec'
-
-        $('#submit-form').on('click', function (e) {
-            e.preventDefault();
-            var jqxhr = $.ajax({
-                url: url,
-                method: "GET",
-                dataType: "json",
-                data: $form.serialize(),
-                success: function (rooms) {
-                    
-                }
-            })
-            // .success(
-            //     setTimeout(function () {
-            //     //   window.location.href = "gracias.php"
-            //     }, 500)
-            // );
-        })</script>
 
 
          

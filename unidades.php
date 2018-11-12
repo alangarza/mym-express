@@ -25,7 +25,7 @@
                     <div class="service-block col-sm-4">
                         <div class="inner">
                             <div class="service-image">
-                                <img class="img-responsive" src="images/m/m1.png" alt="service" width="400px;" height="300px">
+                                <img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m1.png" alt="service" width="400px;" height="300px">
                                 <a href="#" class="hover center"><i class="fa fa-link" aria-hidden="true"></i></a>
                             </div>
                             <div class="service-text">
@@ -40,7 +40,7 @@
                     <div class="service-block col-sm-4">
                         <div class="inner">
                             <div class="service-image">
-                                <img class="img-responsive" src="images/m/m2.png" alt="service" width="400px;" height="300px">
+                                <img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m2.png" alt="service" width="400px;" height="300px">
                                 <a href="#" class="hover center"><i class="fa fa-link" aria-hidden="true"></i></a>
                             </div>
                             <div class="service-text">
@@ -55,7 +55,7 @@
                     <div class="service-block col-sm-4">
                         <div class="inner">
                             <div class="service-image">
-                                <img class="img-responsive" src="images/m/m3.png" alt="service" width="400px;" height="300px">
+                                <img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m3.png" alt="service" width="400px;" height="300px">
                                 <a href="#" class="hover center"><i class="fa fa-link" aria-hidden="true"></i></a>
                             </div>
                             <div class="service-text">

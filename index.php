@@ -7,9 +7,9 @@
                         <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:550px;height:550px;">
                             <ul>
                                 <!-- SLIDE  1-->
-                                <li data-transition="slideoverright" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider_1.jpg" data-saveperformance="off" data-title="Slide">
+                                <li data-transition="slideoverright" data-slotamount="7" data-masterspeed="300" data-thumb="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/slider_1.jpg" data-saveperformance="off" data-title="Slide">
                                     <!-- MAIN IMAGE -->
-                                    <img src="images/slider_1.jpg" alt="portfolio-6-1140x760" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/slider_1.jpg" alt="portfolio-6-1140x760" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                     <!-- LAYERS -->
                                     <!-- LAYER NR. 1 -->
                                  
@@ -20,7 +20,7 @@
                                     </div>
 
                                     <div class="tp-caption medium_text sfb tp-resizeme start hidden-xs" data-x="880" data-y="180" data-speed="300" data-start="500" data-easing="Sine.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; white-space: nowrap; transition: none 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 80px; left: 440.5px; top: 380px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 50, 0, 1);">
-                                    <a href="cotizar.php" class="sppb-btn sppb-btn-default sppb-btn-" style="transition: none 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 30px; border-width: 2px; margin: 10px 0px 0px; padding: 8px 35px; letter-spacing: 0px; font-size: 30px;">COTIZAR SERVICIO</a>
+                                    <a href="cotizar" class="sppb-btn sppb-btn-default sppb-btn-" style="transition: none 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 30px; border-width: 2px; margin: 10px 0px 0px; padding: 8px 35px; letter-spacing: 0px; font-size: 30px;">COTIZAR SERVICIO</a>
                                     </div>
                                 
                                 </li>
@@ -42,7 +42,7 @@
                         <h2 class="title">¿Buscas una Cotización Personalizada? </h2>
                     </div>
                     <div class="col-sm-3 action-block text-right">
-                        <a target="_parent" href="cotizar.php" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
+                        <a target="_parent" href="cotizar" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <div class="service-block col-sm-4">
                         <div class="inner">
                             <div class="service-image">
-                                <img class="img-responsive" src="images/m/m1.png" alt="service" width="400px;" height="300px">
+                                <img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m1.png" alt="service" width="400px;" height="300px">
                                 <a href="#" class="hover center"><i class="fa fa-link" aria-hidden="true"></i></a>
                             </div>
                             <div class="service-text">
@@ -83,7 +83,7 @@
                     <div class="service-block col-sm-4">
                         <div class="inner">
                             <div class="service-image">
-                                <img class="img-responsive" src="images/m/m2.png" alt="service" width="400px;" height="300px">
+                                <img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m2.png" alt="service" width="400px;" height="300px">
                                 <a href="#" class="hover center"><i class="fa fa-link" aria-hidden="true"></i></a>
                             </div>
                             <div class="service-text">
@@ -97,7 +97,7 @@
                     <div class="service-block col-sm-4">
                         <div class="inner">
                             <div class="service-image">
-                                <img class="img-responsive" src="images/m/m3.png" alt="service" width="400px;" height="300px">
+                                <img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m3.png" alt="service" width="400px;" height="300px">
                                 <a href="#" class="hover center"><i class="fa fa-link" aria-hidden="true"></i></a>
                             </div>
                             <div class="service-text">

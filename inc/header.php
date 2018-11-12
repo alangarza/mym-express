@@ -17,8 +17,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
  
     <title>M&M Express - Transportes Carga Terrestre</title>
-    <meta name="keywords" content="Alpha Media Agency ">
-    <meta name="description" content="Alpha Media Agency ">
+    <meta name="keywords" content=" ">
+    <meta name="description" content="">
     <meta name="author" content="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -40,11 +40,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#ff0000">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/favicon/safari-pinned-tab.svg" color="#ff0000">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
@@ -83,30 +83,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </section>
-        <section id="sp-top-info" class="hidden-lg hidden-sm hidden-md">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 top-base no-padding">
-                      
-                        <div class="col-sm-12 top-block text-center">
-                            <a href="https://whatsapp.com">
-                            <img src="images/whatsapp.png" width="120px;">
-                            </a>
-                            <!-- <ul class="social-icons">
-                                <li><a class=" " target="_blank" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a></li>
-                            </ul> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!--Top bar-->
         <section id="sp-top-bar">
             <div class="container">
                 <div class="row">
                     <div id="sp-logo" class="col-sm-3 col-md-3">
-                        <a class="logo" href="index.php"><h1><img class="sp-default-logo" src="images/mym.png" alt=""></h1></a>
+                        <a class="logo" href="index.php"><h1><img class="sp-default-logo" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/mym.png" alt=""></h1></a>
                     </div>
                     <div id="sp-top2" class="col-sm-9 col-md-9 hidden-xs">
                         <ul class="sp-contact-info">
@@ -134,12 +117,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <a class="hidden-lg hidden-md" id="offcanvas-toggler" href="#"><i class="fa fa-bars"></i></a>
 
                                 <ul class="sp-megamenu-parent menu-fade-up hidden-xs">
-                                        <li class="sp-menu-item"><a href="index.php">MyM Express</a></li>
-                                        <li class="sp-menu-item"><a href="cotizar.php">COTIZAR</a></li>
-                                        <li class="sp-menu-item"><a href="about.php">NOSOTROS</a></li>
-                                        <li class="sp-menu-item"><a href="unidades.php">UNIDADES</a></li>
-                                        <li class="sp-menu-item"><a href="contacto.php">CONTACTO</a></li>
-                                        <li class="sp-menu-item"><a href="bolsa.php">BOLSA DE TRABAJO</a></li>
+                                        <li class="sp-menu-item"><a href="index">MyM Express</a></li>
+                                        <li class="sp-menu-item"><a href="cotizar">COTIZAR</a></li>
+                                        <li class="sp-menu-item"><a href="about">NOSOTROS</a></li>
+                                        <!-- <li class="sp-menu-item"><a href="unidades.php">UNIDADES</a></li> -->
+                                        <li class="sp-menu-item"><a href="contacto">CONTACTO</a></li>
+                                        <li class="sp-menu-item"><a href="bolsa">BOLSA DE TRABAJO</a></li>
                                 </ul>
                             </div>
                         </div>

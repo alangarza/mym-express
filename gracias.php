@@ -20,8 +20,8 @@
                        <h2>¡Gracias!</h2>
                        <h3>Estaremos en contacto lo m&aacute;s pronto posible con usted.</h3><br>
                       
-                        <a target="_parent" href="index.php" class="sppb-btn sppb-btn-default ">Pagina Principal</a><br><br>
-                        <img src="images/m/m3.png" width="400px">
+                        <a target="_parent" href="index" class="sppb-btn sppb-btn-default ">Pagina Principal</a><br><br>
+                        <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m3.png" width="400px">
                   
 
 
@@ -38,7 +38,7 @@
                         <h2 class="title">¿Buscas una Cotización Personalizada? </h2>
                     </div>
                     <div class="col-sm-3 action-block text-right">
-                        <a target="_parent" href="cotizar.php" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
+                        <a target="_parent" href="cotizar" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
                     </div>
                 </div>
             </div>

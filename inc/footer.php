@@ -3,46 +3,46 @@
             <div class="container">
                 <div class="row hidden-xs">
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/oxxo.png" alt="Client 1"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/oxxo.png" alt="Client 1"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/heb.png" alt="Client 2"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/heb.png" alt="Client 2"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/heineken.png" alt="Client 3"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/heineken.png" alt="Client 3"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/chr.png" alt="Client 4"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/chr.png" alt="Client 4"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/coca.png" alt="Client 5"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/coca.png" alt="Client 5"></a>
                     </div>
                     <div class="col-sm-2">
-                        <a target="_parent" href="#"><img class="img-responsive" src="images/clientes/whir.png" alt="Client 5"></a>
+                        <a target="_parent" href="#"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/whir.png" alt="Client 5"></a>
                     </div>
                 </div>
 
                   <div class="row hidden-md hidden-lg hidden-sm">
                     <div class="row">  
                         <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/oxxo.png" alt="Client 1"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/oxxo.png" alt="Client 1"></a>
                         </div>
                         <div class="col-xs-6" class="clientespad">
-                            <a target="_parent" href="#" ><img class="img-responsive" src="images/clientes/heb.png" alt="Client 2"></a>
+                            <a target="_parent" href="#" ><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/heb.png" alt="Client 2"></a>
                         </div>
                     </div>
                     <div class="row">  <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/heineken.png" alt="Client 1"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/heineken.png" alt="Client 1"></a>
                         </div>
                         <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/chr.png" alt="Client 2"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/chr.png" alt="Client 2"></a>
                         </div>
                     </div>
                     <div class="row">  <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/coca.png" alt="Client 1"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/coca.png" alt="Client 1"></a>
                         </div>
                         <div class="col-xs-6">
-                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="images/clientes/whir.png" alt="Client 2"></a>
+                            <a target="_parent" href="#" class="clientespad"><img class="img-responsive" src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/clientes/whir.png" alt="Client 2"></a>
                         </div>
                     </div>
                 
@@ -100,7 +100,7 @@
                             <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> MyM Express</a></li>
                             <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Cotizar</a></li>
                             <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Nosotros</a></li>
-                            <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Unidades</a></li>
+                            <!-- <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Unidades</a></li> -->
                             <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Contacto</a></li>
                             <li><i class="ti-arrow-right"></i><a href="#" target="_parent"> Bolsa de Trabajo</a></li>
                           
@@ -128,12 +128,12 @@
                     <h3 class="sp-module-title">Menu</h3>
                     <div class="sp-module-content">
                         <ul class="nav menu">
-                        <li class="sp-menu-item"><a href="index.php">MyM Express</a></li>
-                        <li class="sp-menu-item"><a href="cotizar.php">COTIZAR</a></li>
-                        <li class="sp-menu-item"><a href="about.php">NOSOTROS</a></li>
-                        <li class="sp-menu-item"><a href="unidades.php">UNIDADES</a></li>
-                        <li class="sp-menu-item"><a href="contacto.php">CONTACTO</a></li>
-                        <li class="sp-menu-item"><a href="bolsa.php">BOLSA DE TRABAJO</a></li>
+                        <li class="sp-menu-item"><a href="index">MyM Express</a></li>
+                        <li class="sp-menu-item"><a href="cotizar">COTIZAR</a></li>
+                        <li class="sp-menu-item"><a href="about">NOSOTROS</a></li>
+                        <!-- <li class="sp-menu-item"><a href="unidades.php">UNIDADES</a></li> -->
+                        <li class="sp-menu-item"><a href="contact">CONTACTO</a></li>
+                        <li class="sp-menu-item"><a href="bolsa">BOLSA DE TRABAJO</a></li>
                         </ul>
                     </div>
                 </div>
@@ -154,6 +154,9 @@
     <script src="js/sp-flickr-gallery.js" type="text/javascript"></script>
     <script src="js/odometer.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5087185.js"></script>
+<!-- End of HubSpot Embed Code -->
 
 </body>
 
