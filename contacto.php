@@ -31,8 +31,8 @@
                             <li><i class="fa fa-clock-o"></i>Lun - Sab: 8:30 - 18:00</li>
                         </ul>
                         <ul class="sppb-person-social">
-                            <li><a target="_parent" href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a target="_parent" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a target="_parent" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a target="_parent" href="https://www.linkedin.com/company/m&m-express-mexico/"><i class="fab fa-linkedin"></i></a></li>
                        
                         </ul>
                     </div>

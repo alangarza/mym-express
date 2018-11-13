@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="es">
 <!--<![endif]-->
 <head>
 
@@ -53,6 +53,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="js/jquery-2.2.1.min.js" type="text/javascript"></script>
 
     <script type="text/javascript" src="js/parsley.js"></script>
+    <script>
+// ---------------
+// Requires jQuery
+// ---------------
+
+// ----------------------------------------------------------
+// Utility function for getting Query String Parameter values
+// ----------------------------------------------------------
+getParameterByName = function(name) {
+    query = window.location.search.toString();
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    results = regex.exec(query);
+    if (results == null) return "";
+    else return decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+$(document).ready(function() {
+    // -------------------------------------------------------------------------
+    // Set these Variables to the HTML names of the fields if they are different
+    // -------------------------------------------------------------------------
+    var $utmSource   = $('[name=utm_source]'),
+        $utmMedium  = $('[name=utm_medium]'),
+        $utmContent  = $('[name=utm_content]'),
+        $utmCampaign = $('[name=utm_campaign]');
+
+    // --------------
+    // Set the Values
+    // --------------
+   $utmSource.val(getParameterByName('utm_source'));
+   $utmMedium.val(getParameterByName('utm_medium'));
+    $utmContent.val(getParameterByName('utm_content'));
+   $utmCampaign.val(getParameterByName('utm_campaign'));
+});
+</script>
     
 
 </head>
@@ -71,12 +107,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="row">
                     <div class="col-sm-12 top-base no-padding hidden-xs">
                         <div class="col-sm-6 top-block">
-                            <p><i class="fa fa-map-marker"><i class="hidden"></i></i> Ciudad Mitras, Nuevo León, México</p>
+                            <p><i class="fa fa-map-marker"><i class="hidden"></i></i> Monterrey, Nuevo León, México.</p>
                         </div>
                         <div class="col-sm-6 top-block text-right">
                             <ul class="social-icons">
                                 <li><a target="_blank" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/company/m&m-express-mexico/"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>

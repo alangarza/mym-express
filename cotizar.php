@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 breadcrumb-block">
-                        <h2>Cotizacion Personalizada</h2>
+                        <h2>Cotización Personalizada</h2>
                     </div>
                     <div class="col-sm-6 breadcrumb-block text-right hidden-xs">
                         <ol class="breadcrumb">
@@ -16,12 +16,27 @@
                 </div>
             </div>
         </section>
+
         <!--Contact Us-->
         <section id="contact">
             <div class="container">
                 <div class="row">
+          
                   
                     <div class="col-sm-8 contact-block">
+                    <div class="col-sm-12 hidden-md hidden-lg hidden-sm about-block">
+                        <h2 class="ctaquote">Cotiza con Nosotros</h2>
+                        <div class="imgcontquote"><img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m4.png" class="imgquote"> </div>
+                        
+                        <ul class="bulletquote">
+                            <li><i class="icon-check"></i> Cotizaciones sin compromisos. </li>
+                            <li><i class="icon-check"></i> 100% garantía de puntualidad. </li>
+                            
+                            <li><i class="icon-check"></i> Precios competitivos. </li>
+                            <li><i class="icon-check"></i> Descuentos en Volumen</li>
+                           
+                        </ul>
+                    </div>
                        
                         <form id="form-mym" name="submit-to-google-sheet">
                         <div class="row">
@@ -41,8 +56,8 @@
                                     <input type="email" class="form-control" name="correo" id="email" required placeholder="Correo Electronico">
                             </div>
                             <div class="form-group col-sm-6 padding-right">
-                                    <label><i class="fas fa-phone"></i> Telefono</label>
-                                        <input type="text" class="form-control" name="telefono" id="telefono" required placeholder="Telefono de Contacto">
+                                    <label><i class="fas fa-phone"></i> Tel&eacutefono</label>
+                                        <input type="text" class="form-control" name="telefono" id="telefono" required placeholder="Teléfono de Contacto">
                                 </div>
                                 <!-- <div class="form-group col-sm-6 padding-right">
                                 <label><i class="fas fa-building"></i> Empresa</label>
@@ -55,6 +70,7 @@
                             </div> -->
                         </div>
                         <div class="row">
+                        
                             <div class="col-sm-12 main-heading">
                                 <br>
                                 <h4 class="quote-header">Datos de Servicio </h4>
@@ -124,6 +140,10 @@
 
                                 <textarea class="form-control" name="comentarios" id="comment" placeholder=""></textarea>
                             </div>
+                            <input type="hidden" name="utm_source" />
+                            <input type="hidden" name="utm_medium" />
+                            <input type="hidden" name="utm_content" />
+                            <input type="hidden" name="utm_campaign" />
                         
                            
         
@@ -139,6 +159,17 @@
                     </div>
 
                     <div class="col-sm-4">
+                    <div class="col-sm-12 about-block bulletsquotes">
+                        <h2 class="headerbullets">Cotiza con Nosotros</h2>
+                        <ul>
+                            <li><i class="icon-check"></i> Cotizaciones sin compromisos. </li>
+                            <li><i class="icon-check"></i> 100% garantía de puntualidad. </li>
+                            
+                            <li><i class="icon-check"></i> Precios competitivos. </li>
+                            <li><i class="icon-check"></i> Descuentos en Volumen</li>
+                           
+                        </ul>
+                    </div>
 
                         <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m4.png"> 
                         
