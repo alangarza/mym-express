@@ -146,8 +146,8 @@ button style
 }
 
 .sppb-btn.sppb-btn-default:hover {
-    background-color: transparent !important;
-    border-color: #fff !important;
+    background-color: #EE632C !important;
+    border-color: #EE632C !important;
     color: #fff;
 }
 

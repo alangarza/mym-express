@@ -89,22 +89,23 @@
                                     <label><i class="fas fa-map-marker-alt"></i> Origen (Estado) </label>                                    
                                     <select class="form-control" type="text" name="origen-e" id="name" >
                                     <option value="volvo" selected disabled>Estado</option>
-                                            <option value="volvo">Volvo</option>
-                                            <option value="saab">Saab</option>
-                                            <option value="mercedes">Mercedes</option>
-                                            <option value="audi">Audi</option>
+                                            <option value="Nuevo León">Nuevo León</option>
+                                            <option value="Jalisco">Jalisco</option>
+                                            <option value="CDMX">CDMX</option>
+                                            <option value="Querétaro">Querétaro</option>
+                                            <option value="Guanajuato">Guanajuato</option>
                                     </select>
-                                   
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
-                                    <label><i class="fas fa-map-marker-alt"></i> Origen (Municipio) </label>                                    
-                                    <select class="form-control" type="text" name="origen-m" id="name" >
+                                    <label><i class="fas fa-map-marker-alt"></i> Origen (Municipio) </label>       <input type="text" class="form-control" name="origen-m" id="name"  placeholder="Municipio">
+                                    <!-- <select class="form-control" type="text" name="origen-m" id="name" >
+                                        
                                     <option value="volvo" selected disabled>Municipio</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
                                             <option value="mercedes">Mercedes</option>
                                             <option value="audi">Audi</option>
-                                    </select>
+                                    </select> -->
                                     
                             </div>
                             <div class="col-sm-12 main-heading">
@@ -117,22 +118,23 @@
                                     <label><i class="fas fa-map-marker-alt"></i> Destino (Estado) </label>                                    
                                     <select class="form-control" type="text" name="destino-e" id="name" >
                                     <option value="volvo" selected disabled>Estado</option>
-                                            <option value="volvo">Volvo</option>
-                                            <option value="saab">Saab</option>
-                                            <option value="mercedes">Mercedes</option>
-                                            <option value="audi">Audi</option>
+                                    <option value="Nuevo León">Nuevo León</option>
+                                            <option value="Jalisco">Jalisco</option>
+                                            <option value="CDMX">CDMX</option>
+                                            <option value="Querétaro">Querétaro</option>
+                                            <option value="Guanajuato">Guanajuato</option>
                                     </select>
                                    
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
-                                    <label><i class="fas fa-map-marker-alt"></i> Destino (Municipio) </label>                                    
-                                    <select class="form-control" type="text" name="destino-m" id="name" >
+                                    <label><i class="fas fa-map-marker-alt"></i> Destino (Municipio) </label>       <input type="text" class="form-control" name="destino-m" id="name"  placeholder="Municipio">                             
+                                    <!-- <select class="form-control" type="text" name="destino-m" id="name" >
                                     <option value="volvo" selected disabled>Municipio</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
                                             <option value="mercedes">Mercedes</option>
                                             <option value="audi">Audi</option>
-                                    </select>
+                                    </select> -->
                             </div>  
                             
                             <div class="form-group col-sm-12 no-padding">

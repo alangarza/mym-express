@@ -54,7 +54,7 @@
                         <h2 class="title">¿Buscas una Cotización Personalizada? </h2>
                     </div>
                     <div class="col-xs-12 action-block">
-                        <a target="_parent" href="#" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
+                        <a target="_parent" href="cotizar" class="sppb-btn sppb-btn-default sppb-btn-">COTIZAR AHORA</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
         </section>
       
         <!--Testimonials-->
-        <section id="testimonials" class="overlay">
+        <!-- <section id="testimonials" class="overlay">
             <div class="container">
                 <div class="col-sm-12 main-heading text-center">
                     <h2 class="title">testimonios</h2>
@@ -180,5 +180,5 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <?php include('inc/footer.php') ?>

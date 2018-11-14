@@ -76,7 +76,7 @@
             </div>
         </section>
         <!--Map-->
-        <section id="map">
+        <!-- <section id="map">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 no-padding">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <?php include('inc/footer.php') ?>
 
       
