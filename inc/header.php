@@ -53,43 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="js/jquery-2.2.1.min.js" type="text/javascript"></script>
 
     <script type="text/javascript" src="js/parsley.js"></script>
-    <script>
-// ---------------
-// Requires jQuery
-// ---------------
-
-// ----------------------------------------------------------
-// Utility function for getting Query String Parameter values
-// ----------------------------------------------------------
-getParameterByName = function(name) {
-    query = window.location.search.toString();
-    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-    var regexS = "[\\?&]" + name + "=([^&#]*)";
-    var regex = new RegExp(regexS);
-    results = regex.exec(query);
-    if (results == null) return "";
-    else return decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-
-$(document).ready(function() {
-    // -------------------------------------------------------------------------
-    // Set these Variables to the HTML names of the fields if they are different
-    // -------------------------------------------------------------------------
-    var $utmSource   = $('[name=utm_source]'),
-        $utmMedium  = $('[name=utm_medium]'),
-        $utmContent  = $('[name=utm_content]'),
-        $utmCampaign = $('[name=utm_campaign]');
-
-    // --------------
-    // Set the Values
-    // --------------
-   $utmSource.val(getParameterByName('utm_source'));
-   $utmMedium.val(getParameterByName('utm_medium'));
-    $utmContent.val(getParameterByName('utm_content'));
-   $utmCampaign.val(getParameterByName('utm_campaign'));
-});
-</script>
-    
+   
 
 </head>
 
@@ -112,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="col-sm-6 top-block text-right">
                             <ul class="social-icons">
                                 <li><a target="_blank" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a target="_blank" href="https://wa.me/+528180632383"><i class="fab fa-whatsapp"></i></a></li>
                                 <li><a target="_blank" href="https://www.linkedin.com/company/m&m-express-mexico/"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -120,6 +84,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </section>
+     
         
         <!--Top bar-->
         <section id="sp-top-bar">
