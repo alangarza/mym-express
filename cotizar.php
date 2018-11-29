@@ -21,23 +21,23 @@
         <section id="contact">
             <div class="container">
                 <div class="row">
-          
-                  
+
+
                     <div class="col-sm-8 contact-block">
                     <div class="col-sm-12 hidden-md hidden-lg hidden-sm about-block">
                         <h2 class="ctaquote">Cotiza con Nosotros</h2>
-                        <div class="imgcontquote"><img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m4.png" class="imgquote"> </div>
-                        
+                        <div class="imgcontquote"><img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m4.png" class="imgquote"> </div>
+
                         <ul class="bulletquote">
                             <li><i class="icon-check"></i> Cotizaciones sin compromisos. </li>
                             <li><i class="icon-check"></i> 100% garantía de puntualidad. </li>
-                            
+
                             <li><i class="icon-check"></i> Precios competitivos. </li>
                             <li><i class="icon-check"></i> Descuentos en Volumen</li>
-                           
+
                         </ul>
                     </div>
-                       
+
                         <form id="form-mym" name="submit-to-google-sheet">
                         <div class="row">
 
@@ -50,7 +50,7 @@
                                     <label><i class="fas fa-user"></i> Nombre</label>
                                         <input type="text" class="form-control" name="nombre" id="nombre" required placeholder="Nombre de Contacto">
                                 </div>
-   
+
                             <div class="form-group col-sm-6 padding-right">
                                 <label><i class="fas fa-envelope"></i> Email</label>
                                     <input type="email" class="form-control" name="correo" id="email" required placeholder="Correo Electronico">
@@ -63,14 +63,14 @@
                                 <label><i class="fas fa-building"></i> Empresa</label>
                                     <input type="text" class="form-control" name="empresa" id="empresa" required placeholder="Nombre de la Empresa">
                             </div>
-                            
+
                             <div class="form-group col-sm-6 padding-right">
                                 <label><i class="fas fa-globe-americas"></i> Pagina Web</label>
                                     <input type="text" class="form-control" name="web" id="web" required placeholder="Pagina Web">
                             </div> -->
                         </div>
                         <div class="row">
-                        
+
                             <div class="col-sm-12 main-heading">
                                 <br>
                                 <h4 class="quote-header">Datos de Servicio </h4>
@@ -86,7 +86,7 @@
                                 <hr class="divider-header-quote">
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
-                                    <label><i class="fas fa-map-marker-alt"></i> Origen (Estado) </label>                                    
+                                    <label><i class="fas fa-map-marker-alt"></i> Origen (Estado) </label>
                                     <select class="form-control" type="text" name="origen-e" id="name" >
                                     <option value="volvo" selected disabled>Estado</option>
                                             <option value="Nuevo León">Nuevo León</option>
@@ -99,14 +99,14 @@
                             <div class="form-group col-sm-6 padding-right select-form-control">
                                     <label><i class="fas fa-map-marker-alt"></i> Origen (Municipio) </label>       <input type="text" class="form-control" name="origen-m" id="name"  placeholder="Municipio">
                                     <!-- <select class="form-control" type="text" name="origen-m" id="name" >
-                                        
+
                                     <option value="volvo" selected disabled>Municipio</option>
                                             <option value="volvo">Volvo</option>
                                             <option value="saab">Saab</option>
                                             <option value="mercedes">Mercedes</option>
                                             <option value="audi">Audi</option>
                                     </select> -->
-                                    
+
                             </div>
                             <div class="col-sm-12 main-heading">
                                 <br>
@@ -115,7 +115,7 @@
                             </div>
 
                             <div class="form-group col-sm-6 padding-right select-form-control">
-                                    <label><i class="fas fa-map-marker-alt"></i> Destino (Estado) </label>                                    
+                                    <label><i class="fas fa-map-marker-alt"></i> Destino (Estado) </label>
                                     <select class="form-control" type="text" name="destino-e" id="name" >
                                     <option value="volvo" selected disabled>Estado</option>
                                     <option value="Nuevo León">Nuevo León</option>
@@ -124,10 +124,10 @@
                                             <option value="Querétaro">Querétaro</option>
                                             <option value="Guanajuato">Guanajuato</option>
                                     </select>
-                                   
+
                             </div>
                             <div class="form-group col-sm-6 padding-right select-form-control">
-                                    <label><i class="fas fa-map-marker-alt"></i> Destino (Municipio) </label>       <input type="text" class="form-control" name="destino-m" id="name"  placeholder="Municipio">                             
+                                    <label><i class="fas fa-map-marker-alt"></i> Destino (Municipio) </label>       <input type="text" class="form-control" name="destino-m" id="name"  placeholder="Municipio">
                                     <!-- <select class="form-control" type="text" name="destino-m" id="name" >
                                     <option value="volvo" selected disabled>Municipio</option>
                                             <option value="volvo">Volvo</option>
@@ -135,8 +135,8 @@
                                             <option value="mercedes">Mercedes</option>
                                             <option value="audi">Audi</option>
                                     </select> -->
-                            </div>  
-                            
+                            </div>
+
                             <div class="form-group col-sm-12 no-padding">
                             <label><i class="fas fa-pencil-alt"></i> Comentarios</label>
 
@@ -146,9 +146,9 @@
                             <input type="hidden" name="utm_medium" />
                             <input type="hidden" name="utm_content" />
                             <input type="hidden" name="utm_campaign" />
-                        
-                           
-        
+
+
+
                         </div>
 
                             <div class="col-sm-12 button no-padding text-center">
@@ -166,15 +166,15 @@
                         <ul>
                             <li><i class="icon-check"></i> Cotizaciones sin compromisos. </li>
                             <li><i class="icon-check"></i> 100% garantía de puntualidad. </li>
-                            
+
                             <li><i class="icon-check"></i> Precios competitivos. </li>
                             <li><i class="icon-check"></i> Descuentos en Volumen</li>
-                           
+
                         </ul>
                     </div>
 
-                        <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m/m4.png"> 
-                        
+                        <img src="https://alphamedia.sfo2.cdn.digitaloceanspaces.com/mym/m4.png">
+
                         <h2 class="quote-header"> Profesionales en el servicio de transporte de carga de mercancías en caja seca 53"</h2>
 
                     </div>
@@ -192,7 +192,7 @@
             </div>
         </section>
 
-         
+
       <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyAzzLvjeiLwjCB3dcqaZGa9cKwYMrGF-VpvegDT4XvJhMqff2s/exec'
   const form = document.forms['submit-to-google-sheet']
@@ -204,17 +204,17 @@
       .catch(error => console.error('Error!', error.message))
   })
 
-     
+
 
 
 </script>
 
- 
+
         <?php include('inc/footer.php') ?>
 
 
 
-         
+
 
 </body>
 

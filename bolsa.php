@@ -33,7 +33,7 @@
                         <ul class="sppb-person-social">
                             <li><a target="_parent" href="https://www.facebook.com/mymexpress/"><i class="fab fa-facebook"></i></a></li>
                             <li><a target="_parent" href="https://www.linkedin.com/company/m&m-express-mexico/"><i class="fab fa-linkedin"></i></a></li>
-                       
+
                         </ul>
                     </div>
                     <div class="col-sm-8 contact-block">
@@ -75,7 +75,7 @@
                                     <option>3-5</option>
                                     <option>6-9</option>
                                     <option>10 o m&aacute;s</option>
-                                   
+
                                 </select>
                             </div>
                             <div class="form-group col-sm-6 padding-left">
@@ -86,10 +86,11 @@
                                     <option>Tipo B </option>
                                     <option>Tipo C </option>
                                     <option>Tipo D </option>
+                                    <option>Tipo E </option>
                                 </select>
                             </div>
                             <div class="form-group col-sm-12 no-padding">
-                                <label><i class="fas fa-briefcase"></i> Experiencia Laboral</label>   
+                                <label><i class="fas fa-briefcase"></i> Experiencia Laboral</label>
                                 <textarea class="form-control" name="experiencia" id="comment" placeholder="Trabajos anteriores y referencias"></textarea>
                             </div>
                             <div class="form-group col-sm-6 padding-left">
@@ -109,7 +110,7 @@
                 </div>
             </div>
         </section>
-        
+
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyNHPW1_CSPKV3f61h_luJoTinvGeyMQhRkQtPnPpwL0q8liaQ/exec'
   const form = document.forms['submit-to-google-sheet']
@@ -121,7 +122,7 @@
       .catch(error => console.error('Error!', error.message))
   })
 
-     
+
 
 
 </script>
@@ -136,4 +137,3 @@
             </div>
         </section> -->
         <?php include('inc/footer.php') ?>
-
